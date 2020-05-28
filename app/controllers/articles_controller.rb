@@ -1,7 +1,7 @@
 class ArticlesController < ApplicationController
     
     def show
-        # byebug
+        # byebug - initiates a terminal/console debugger
         @article = Article.find(params[:id]) #@ = instance variable
     end
 
